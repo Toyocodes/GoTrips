@@ -28,15 +28,6 @@ h1,h2{
   font-family: 'Inter', sans-serif;
     font-weight: 900;
 }
-/* h3, h5{
-    font-family: 'Edu SA Beginner', cursive;
-    
-} */
-
-/* p{
-   
-    font-family: 'Inter', sans-serif;
-} */
 
 section {
     margin-top: 3rem;
@@ -53,7 +44,6 @@ section >h2{
 
   .navbar {
     background-color: transparent;
-    /* padding: 10px; */
     transition: background-color 0.2s;
   }
   
@@ -177,7 +167,7 @@ section >h2{
 .right-line {
     position: relative;
     display: inline-block;
-    padding-right: 40px; /* Adjust as needed */
+    padding-right: 40px; 
 }
 .right-line::after {
     content: "";
@@ -187,7 +177,7 @@ section >h2{
     transform: translateY(-50%);
     height: 4px;
     background-color: orange;
-    width: 30px; /* Adjust the length of the line as needed */
+    width: 30px;
 }
   .about-section{
     display: grid;
