@@ -17,7 +17,7 @@ export default function Footer() {
     "Tour Guide",
   ];
   return (
-    <footer className="text-black py-10 px-7">
+    <footer className="text-black py-10 px-7 mt-[8%] bg-blue-200">
       <div className="container mx-auto">
         <div className="upper-footer grid grid-cols-1 md:grid-cols-4 gap-8 justify-center border-b-2 border-colorPrimary pb-8">
           <div className="col">

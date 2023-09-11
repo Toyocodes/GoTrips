@@ -38,11 +38,7 @@ const handleSubmit = (e) => {
 
   
   return (
-    // <div className='herobg'>
-    //      <img src={HeroBg} alt="Hero Background" className="h-[80vh] w-full" />
-    //     <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-[900]">Travel Across The Globe</h2>
-    //     <h5>Find Your Special Trip</h5>
-    // </div>
+  
       
       <div className='hero-container' id='home'>
         <div className="relative h-[100vh] bg-gradient-to-b from-black via-black to-transparent 
@@ -52,23 +48,22 @@ const handleSubmit = (e) => {
           
           <img src={HeroBg} alt="Hero Background" className="h-[100vh] w-full bg-cover bg-center" />
 
-          {/* <div className='heroSection flex justify-center items-center gap-10 flex-wrap absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
-            lg:flex space-x-8'> */}
+          
           <div className='heroSection w-full'>
 
               <div className="heroContent mt-[-20px] text-white">
-                <h2 className="text-[2.4rem] sm:text-4xl md:text-[2.5rem] lg:text-5xl font-semibold font-mono" data-aos="flip-right" data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">ENJOY YOUR DREAM<br/> VACATION...</h2>
+                <h2 className="text-[2.4rem] sm:text-4xl md:text-[2.5rem] lg:text-6xl font-semibold font-mono" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">ENJOY YOUR DREAM<br/> VACATION...</h2>
                 <h5 className='text-lg md:text-base lg:text-xl mt-4 mb-8' data-aos="fade-up-right" data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">With GoTrips, we take you to your dream destination</h5>
+                data-aos-duration="2000">With GoTrips, we take you to your dream destination</h5>
                 <a href="#" className='btn text-base lg:text-lg w-full text-white 
                 bg-gradient-to-r from-colorPrimary to-blue-600 font-bold duration-500' data-aos="fade-left">Book Now</a>
               </div>
 
-              <form onSubmit={handleSubmit} className='heroForm bg-colorPrimary mt-20 md:mt-5 lg:mt-[-10px] py-4 px-2 
+              <form onSubmit={handleSubmit} className='heroForm bg-colorPrimary mt-20 md:mt-5 py-4 px-2 
               lg:px-8 xs:px-10 lg:w-96 lg:ml-12' data-aos="zoom-in">
                 
-                  <div className='text-white text-center mb-6 text-[1.5rem]'>
+                  <div className='text-white text-center mb-6 text-[1.5rem]' id='book'>
                     <h2>BOOK AN HOLIDAY</h2>
                   </div>
                   

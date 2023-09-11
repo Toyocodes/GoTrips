@@ -7,6 +7,7 @@ import DestinationFilter from './Components/DestinationFilter'
 // import About from './Components/About'
 import Offer from './Components/Offer'
 import Gallery from './Components/Gallery'
+import Blog from './Components/Blog'
 import Footer from './Components/Footer'
 
 
@@ -21,6 +22,7 @@ function App() {
       <Offer/>
       {/* <About /> */}
       <Gallery />
+      <Blog />
       <Footer />
     </div>
   )

@@ -97,13 +97,13 @@ const NavBar = () => {
       <button
         onClick={toggleLoginForm}
         className="hidden md:block text-[13px] ease-in duration-300
-            font-bold py-2 px-6 bg-white text-colorPrimary hover:opacity-80 rounded-2xl"
+            font-bold py-2 px-6 bg-white text-colorPrimary hover:bg-colorPrimary hover:text-white rounded-2xl"
       >
         Login
       </button>
 
    
-
+      {/* MODAL SECTION */}
       <Modal isOpen={login} onClose={toggleLoginForm} onSubmit={handleSubmit}>
         <form onClick={(e) => e.stopPropagation()} className="login-form" data-aos="zoom-in-left">
           <h3>Login now</h3>
@@ -119,15 +119,7 @@ const NavBar = () => {
         </form>
       </Modal>
 
-      {/* {submittedData && (
-        <div className="submitted-data">
-          <h3>Submitted Data:</h3>
-          <p>Email: {submittedData.email}</p>
-          <p>Password: {submittedData.password}</p>
-        </div>
-      )} */}
-      
-
+    
       {/* hamburger */}
       
       <div onClick={handleClick} className='menubtn flex justify-end md:hidden z-[100]'>

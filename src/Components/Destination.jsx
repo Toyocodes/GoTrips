@@ -37,7 +37,7 @@ const Destination = ({items}) => {
                             {nights}
                         </div>
                         <div className='book'>
-                            Book now
+                            <a href="#book">Book now</a>
                         </div>
                       </div>
                   </div>
