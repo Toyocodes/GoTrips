@@ -95,7 +95,7 @@ export default class CarouselSection extends Component {
           };
         return (
           <section className='slider-container'>
-            <h2 data-aos="flip-right" className='text-center text-[1.7rem] sm:text-3xl lg:text-3xl mt-[10rem] lg:mt-32 2xl:text-4xl'> Most Popular Tours</h2>
+            <h2 data-aos="flip-right" className='text-center text-[1.7rem] sm:text-3xl lg:text-3xl mt-[18rem] sm:mt-[20rem] md:mt-[10rem] lg:mt-32 2xl:text-4xl'> Most Popular Tours</h2>
             <p data-aos="fade-left" className='text-center text-sm pt-1 p-8'>Find your special trip by only going places that spark joy</p>
             <Slider {...settings}> 
               {

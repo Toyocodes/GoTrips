@@ -6,12 +6,12 @@ import Img4 from '../assets/destination-4.jpg'
 
 const Blog = () => {
   return (
-    <section className="container mx-auto xs:px-[10%] md:px-[2%] lg:px-[6%]">
-         <h2 className='text-center mt-[9%] sm:mt-[9%] md:mt-[9%] lg:mt-[9%] 
-            text-3xl sm:text-3xl lg:text-3xl 2xl:text-4xl mb-8' data-aos="flip-left">Our Blog</h2>
+    <section className="xs:px-[10%] md:px-[1%] lg:px-[5%]">
+         <h2 className='text-center mt-[7rem] sm:mt-[8rem] md:mt-[8rem] lg:mt-[8rem] 
+            text-3xl sm:text-3xl lg:text-3xl 2xl:text-4xl mb-8'>Our Blog</h2>
             
         
-        <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-8 p-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-8 px-8">
             
             <div className="blog-post grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full overflow-none border rounded-md">
                 <div className="max-w-2xl h-auto relative">
@@ -20,7 +20,7 @@ const Blog = () => {
                     Prague
                     </div>
                 </div>
-                <div className='content-text p-2'>
+                <div className='content-text p-2 lg:px-4 lg:pt-8'>
                     <div className="flex gap-2 mb-2">
                         <div className="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
                         <div className="text-sm text-gray-500">
@@ -51,7 +51,7 @@ const Blog = () => {
                     Singapore
                     </div>
                 </div>
-                <div className='content-text p-2'>
+                <div className='content-text p-2 lg:px-4 lg:pt-8'>
                     <div className="flex gap-2 mb-2">
                         <div className="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
                         <div className="text-sm text-gray-500">
@@ -81,7 +81,7 @@ const Blog = () => {
                     Dubai 
                     </div>
                 </div>
-                <div className='content-text p-2'>
+                <div className='content-text p-2 lg:px-4 lg:pt-8'>
                     <div className="flex gap-2 mb-2">
                         <div className="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
                         <div className="text-sm text-gray-500">
@@ -112,7 +112,7 @@ const Blog = () => {
                     Maldives
                     </div>
                 </div>
-                <div className='content-text p-2'>
+                <div className='content-text p-2 lg:px-4 lg:pt-8'>
                     <div className="flex gap-2 mb-2">
                         <div className="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
                         <div className="text-sm text-gray-500">

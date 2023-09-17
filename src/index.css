@@ -183,11 +183,28 @@ section >h2{
     background-color: orange;
     width: 30px;
 }
-@media (max-width: 400px) {
+
+@media (max-width: 768px) {
+  
+  .faq{
+    margin-bottom: 25rem;
+  }
+} 
+@media (max-width: 600px) {
+  
+  .faq{
+    margin-bottom: 28rem;
+  }
+} 
+@media (max-width: 450px) {
   .slider-container h2{
-    margin-top: 15rem;
+    margin-top: 12rem;
+  }
+  .faq{
+    margin-bottom: 13rem;
   }
 }
+
 
   .about-section{
     display: grid;
