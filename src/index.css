@@ -47,8 +47,9 @@ section >h2{
     transition: background-color 0.2s;
   }
   
+  /* scrolling */
   .scrolling .navbar {
-      background-color: #8eb3f8; 
+      background-color: #2f5bac; 
     }
     .scrolling .navbar a:hover {
       color: #000; 

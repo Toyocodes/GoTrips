@@ -6,12 +6,12 @@ import Img4 from '../assets/destination-4.jpg'
 
 const Blog = () => {
   return (
-    <section className="container mx-auto">
-         <h2 className='text-center mt-[-260px] sm:mt-[-330px] md:mt-[-330px] lg:mt-[6rem] 
+    <section className="container mx-auto xs:px-[10%] md:px-[2%] lg:px-[6%]">
+         <h2 className='text-center mt-[9%] sm:mt-[9%] md:mt-[9%] lg:mt-[9%] 
             text-3xl sm:text-3xl lg:text-3xl 2xl:text-4xl mb-8' data-aos="flip-left">Our Blog</h2>
             
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 p-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-8 p-2">
             
             <div className="blog-post grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full overflow-none border rounded-md">
                 <div className="max-w-2xl h-auto relative">
@@ -31,10 +31,10 @@ const Blog = () => {
                         </div>
                     </div>
                     <div>
-                        <h4 className="text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
-                            <a href="single.html">All You Need To Know About Prague's Culture</a>
+                        <h4 className="text-[1rem] xs:text-xl md:text-xl sm:text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                        All You Need To Know About Prague's Culture
                         </h4>
-                        <p className="text-md my-1 text-gray-500 font-sans">
+                        <p className="text-[14px] my-1 text-gray-500 font-sans">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quae hic architecto inventore dolores earum.
                         </p>
                         <a href="https://prague.org/all-you-need-to-know-about-czech-culture/" target="_blank"
@@ -62,10 +62,10 @@ const Blog = () => {
                         </div>
                     </div>
                     <div>
-                        <h4 className="text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
-                        <a href="single.html">The Best Things To Do in Singapore</a>
+                        <h4 className="text-[1rem] xs:text-xl md:text-xl sm:text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                        The Best Things To Do in Singapore
                         </h4>
-                        <p className="text-md my-1 text-gray-500 font-sans">
+                        <p className="text-[14px] my-1 text-gray-500 font-sans">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quae hic architecto inventore dolores earum.
                         </p>
                         <a href="https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html" target="_blank"
@@ -92,10 +92,10 @@ const Blog = () => {
                         </div>
                     </div>
                     <div>
-                        <h4 className="text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
-                            <a href="single.html">Top 10 Hotels in Dubai</a>
+                        <h4 className="text-[1rem] xs:text-xl md:text-xl sm:text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                            Top 10 Hotels in Dubai
                             </h4>
-                            <p className="text-md my-1 text-gray-500 font-sans">
+                            <p className="text-[14px] my-1 text-gray-500 font-sans">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quae hic architecto inventore dolores earum.
                             </p>
                             <a href="https://www.luxuryhotelsguides.com/?ufi=-782831&gclid=Cj0KCQjw9fqnBhDSARIsAHlcQYQMCR_K_hk_LwvVHB0gKfehSp8JevwY40qE3a2laHdinV7PVqsbangaAmxgEALw_wcB" 
@@ -123,10 +123,10 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='h-full'>
-                        <h4 className="text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
-                        <a href="single.html">Why You Should Visit Maldives</a>
+                        <h4 className="text-[1rem] xs:text-xl md:text-xl sm:text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                        Why You Should Visit Maldives
                         </h4>
-                        <p className="text-md my-1 text-gray-500 font-sans">
+                        <p className="text-[14px] my-1 text-gray-500 font-sans">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quae hic architecto inventore dolores earum.
                         </p>
                         <a href="https://www.maldivessecrets.com/post/10-reasons-to-visit-maldives#:~:text=The%20Maldives%20is%20world%2Dfamous,multitude%20of%20other%20underwater%20species!" 

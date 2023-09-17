@@ -124,7 +124,7 @@ const NavBar = () => {
       
       <div onClick={handleClick} className='menubtn flex justify-end md:hidden z-[100]'>
         {nav ? (<FaTimes size={35} className='text-white hover:text-orange-400 cursor-pointer ease-in duration-300'/>)
-         : (<FaBars size={35} className='text-white hover:text-orange-400 cursor-pointer ease-in duration-300'/>)}
+         : (<FaBars size={35} className='text-white hover:text-blue-400 cursor-pointer ease-in duration-300'/>)}
         
       </div>
 

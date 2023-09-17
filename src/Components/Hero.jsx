@@ -38,8 +38,6 @@ const handleSubmit = (e) => {
 
   
   return (
-  
-      
       <div className='hero-container' id='home'>
         <div className="relative h-[100vh] bg-gradient-to-b from-black via-black to-transparent 
           bg-fixed bg-cover bg-center bg-no-repeat">
