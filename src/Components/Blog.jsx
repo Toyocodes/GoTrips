@@ -1,17 +1,24 @@
-import React from 'react';
+import {useEffect} from 'react';
 import Img1 from '../assets/destination-1.jpg'
 import Img2 from '../assets/destination-2.jpg'
 import Img3 from '../assets/destination-3.jpg'
 import Img4 from '../assets/destination-4.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Blog = () => {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
   return (
-    <section className="xs:px-[10%] md:px-[1%] lg:px-[5%]">
+    <section className="xs:px-[10%] md:px-[1%] lg:px-[5%]" id='blog'>
          <h2 className='text-center mt-[7rem] sm:mt-[8rem] md:mt-[8rem] lg:mt-[8rem] 
             text-3xl sm:text-3xl lg:text-3xl 2xl:text-4xl mb-8'>Our Blog</h2>
             
         
-        <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-8 px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-8 px-8" data-aos="fade-right">
             
             <div className="blog-post grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full overflow-none border rounded-md">
                 <div className="max-w-2xl h-auto relative">

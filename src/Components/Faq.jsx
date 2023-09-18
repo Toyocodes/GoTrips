@@ -1,11 +1,19 @@
-import React from 'react'
+import {useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Faq = () => {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
   return (
     <div className='container mx-auto'>
         <div className="faq grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-6 h-screen mt-[6%] p-8">
             <div>
-                <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
+                <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8" data-aos="slide-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <h2 className="text-2xl font-semibold">
                         Frequently Asked Questions
                     </h2>
@@ -43,7 +51,7 @@ const Faq = () => {
             </div>
 
             <div>
-                <div className="md:p-8">
+                <div className="md:p-8" data-aos="slide-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <h2 className="text-2xl font-bold">
                         Do you have any specific question for us?
                     </h2>

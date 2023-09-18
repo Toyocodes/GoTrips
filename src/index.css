@@ -196,12 +196,22 @@ section >h2{
     margin-bottom: 28rem;
   }
 } 
+
+@media (max-width: 416px) {
+  .slider-container h2{
+    margin-top: 22rem;
+  }
+  /* .faq{
+    margin-bottom: 60rem;
+  } */
+}
+
 @media (max-width: 450px) {
   .slider-container h2{
-    margin-top: 12rem;
+    margin-top: 15rem;
   }
   .faq{
-    margin-bottom: 13rem;
+    margin-bottom: 22rem;
   }
 }
 
